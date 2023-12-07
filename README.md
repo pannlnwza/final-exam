@@ -1,5 +1,4 @@
 # final-exam
-- From the starting code, polygon_art.py, you are to write an OO program that generates different pieces of art works
-- Fork, then, clone this repo
-- Read the instructions given in the course's Google Classroom and start coding
-- Once you are done, push your final code to your Github repo and modify this README to report on the work you have done
+In this part the task I've done is to change the program into an OOP style and the art 1-4, it has the right pattern but still doesn't look as beautiful as the picture shown in the example.
+
+The task I haven't done is art 5-8. I haven't done it because I couldn't manage the time good enough to do the remaining part.

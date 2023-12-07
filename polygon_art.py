@@ -40,6 +40,7 @@ class Polygon:
     def reduction(self):
         self.size *= self.reduction_ratio
 
+
 def get_new_color():
     return (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
 
@@ -59,23 +60,20 @@ polygon3 = Polygon(3, color)
 polygon4 = Polygon(4, color)
 polygon5 = Polygon(5, color)
 if sides <= 3:
-    for i in range(10):
+    for i in range(20):
         polygon2.draw_polygon()
         polygon2.reposition()
         polygon2.reposition()
         polygon2.reposition()
         polygon2.reduction()
 elif sides == 4:
-    for i in range(10):
+    for i in range(20):
         polygon1.draw_polygon()
         polygon1.reposition()
-        polygon1.reduction()
         polygon.draw_polygon()
         polygon.reposition()
-        polygon.reduction()
         polygon_1.draw_polygon()
         polygon_1.reposition()
-        polygon_1.reduction()
 
 # elif sides == 5:
 #     # for j in range(20):
@@ -83,8 +81,10 @@ elif sides == 4:
 #             polygon3.draw_polygon()
 #             polygon3.reduction()
 #             polygon3.draw_polygon()
-#
+#             polygon3.draw_polygon()
 
-            
+
+
+
 # hold the window; close it by clicking the window close 'x' mark
 turtle.done()
